@@ -1,0 +1,250 @@
+@charset "ISO-8859-1";
+
+body{
+    /*background-image: url('./Images/reservation5.jpg');*/
+    background-image: url('Images/show-details1.jpg');
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    backdrop-filter: 0.5;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed;
+
+}
+
+
+.topic{
+    color:rgb(7, 20, 56);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 100px;
+    font-size: 21px;
+    height: 430px;
+    width: 400px;
+}
+
+.topic h1{
+    opacity: 1.5;
+    vertical-align: middle;
+}
+
+.topic:hover{
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+
+.menu{
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+
+.content{
+    
+    display:flex;
+    height: 650px;
+}
+
+.topic, .reservation{
+    flex: 1;
+}
+
+
+
+.reservation{
+    background-color: rgba(52, 54, 53, 0.2);
+    font-size: 12.5px;
+    margin-left: 10px;
+    /*margin-right eka wenas klaa mn.. klin 110px thbbe*/
+       margin-right: 1px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: groove;
+    border-color: black;
+    backdrop-filter: blur(10px);
+    width: 480px;
+    height: 550px;
+}
+
+.your_Name{
+    margin-left: 117px;
+}
+
+
+.information{
+    color: rgb(0, 0, 0);
+    margin-left: 97px;
+}
+
+
+
+.reserve_Name{
+    margin-left: 97px;
+}
+
+.reserveName{
+    font-size : 13px;
+    border-color: black;
+    width: 146px;
+    height: 25px;
+    background-color: rgb(158, 202, 234);
+    margin-left: 0px;
+}
+
+
+.main-topic{
+    text-align: center;
+    color: rgb(7, 9, 29);
+}
+
+
+/*--------------between "venueDate" class----------*/
+.venueDate{
+    display:flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right :108px;
+}
+
+.venue, .date{
+    flex: 1;
+}
+
+.venue{
+    padding-right: 0px;
+    padding-left: 0px;
+    white-space: nowrap;
+    color: rgb(0, 0, 0);
+    margin-left: 21px;
+}
+
+.venue h3{
+    text-align:justify
+}
+
+.hotels{
+    width: 140px;
+    height: 25px;
+    font-size: 12px;
+    margin-right: 60px;
+    background-color: rgb(158, 202, 234);
+}
+
+.date{
+    color: rgb(0, 0, 0);
+    margin-right: 300px;
+    padding-right: 10px;
+    padding-left: -10px;
+    margin-left: 80px;
+    white-space: nowrap;
+}
+
+.selectDate{
+    width: 140px;
+    height: 25px;
+    font-size: 13px;
+    background-color: rgb(158, 202, 234);
+    margin-right: 20px;
+}
+
+
+
+
+/*---------------In between "Information" class--------------*/
+
+
+
+.participant select{
+    width: 152px;
+}
+
+
+.parti{
+    font-size: 12px;
+    border-color: black;
+    height: 25px;
+    margin-left: 8.5px;
+    background-color: rgb(158, 202, 234);
+}
+
+.eventType{
+    font-size: 13px;
+    width: 146px;
+    height: 24px;
+    margin-left: 14px;
+    background-color: rgb(158, 202, 234);
+}
+
+
+/*---------------In between "startEnd" class-------------------*/
+.startEnd{
+    display:flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 35px;
+}
+
+.start, .end{
+    flex: 1;
+}
+
+.start{
+    height: 25px;
+    margin-left: 5px;
+    background-color: rgb(158, 202, 234);
+}
+
+.end{
+    height: 25px;
+    margin-left: 5px;
+    background-color: rgb(158, 202, 234);
+}
+
+.start-time{
+    height: 35px;
+    padding-right: 10px;
+    margin-left: 30px;
+    white-space: nowrap;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+
+.start-time h3{
+    margin-left: 9px;
+}
+
+.end-time{
+    color: rgb(0, 0, 0);
+    margin-right: 300px;
+    padding-right: 10px;
+    padding-left: 0px;
+    margin-left: 150px;
+    white-space: nowrap;
+}
+
+.end-time h3{
+    margin-left: 11px;
+}
+
+
+.submit{
+    background-color: rgb(17, 124, 190);
+    width: 450px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 16px;
+    border-radius: 10px;
+}
+
+.submit:hover{
+    background-color: rgba(8, 5, 49);
+    color: white;
+    transition: 0.2s;
+}
+
+.nav-NextPage{
+    text-align: center;
+    font-size: 14px;
+}

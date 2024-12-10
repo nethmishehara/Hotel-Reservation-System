@@ -1,0 +1,97 @@
+ @charset "ISO-8859-1";
+
+body{
+	background-image: url("image/r3.jpg");
+	background-size: cover;
+	
+	}
+
+
+.form{
+    max-width: 600px;
+    margin:60px auto ;/*middle of page*/
+    padding:25px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2) ;
+   outline: 5px  solid rgb(200, 148, 29);
+   font-family:sans-serif ;
+  
+}
+.form h1{
+    text-align: center;
+    color: rgb(137, 97, 4);
+}
+.form h3{
+    text-align: center;
+    color: rgb(137, 97, 4);
+    text-align: left;
+}
+.input-box{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.input-box label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgb(6, 7, 6);
+    color: rgb(200, 148, 29);
+
+
+}
+.input-box input[type ="email"],
+.input-box input[type ="date"],
+.input-box input[type ="text"],
+.input-box input[type ="radio"]
+{
+    width :100%; /*diga*/
+    padding :8px;/* palala*/
+    border:1px solid rgb(25, 154, 64);
+    border-radius: 4px;
+    color: rgb(200, 148, 29);
+    }
+
+.button{
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    background-color:rgb(87, 176, 39);
+    height: 40px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+   
+}
+.button:hover{
+    background-color: rgb(77, 141, 73);
+}
+.r1{
+    font-family: 'Courier New', Courier, monospace;
+    color:red;
+    display:none;
+    
+}
+.r2{
+    font-family: 'Courier New', Courier, monospace;
+    color:red;
+    display:none;
+    
+}
+.r3{
+    font-family: 'Courier New', Courier, monospace;
+    color:red;
+    display:none;
+    
+}
+.r4{
+    font-family: 'Courier New', Courier, monospace;
+    color:red;
+    display:none;
+    
+}

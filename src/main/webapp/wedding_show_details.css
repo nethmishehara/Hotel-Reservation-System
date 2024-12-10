@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+
+body {
+    background-image: url('Images/show-details.jpg');
+    background-size: cover;
+    background-color:  rgba(1, 1, 1, 0.8);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+
+.search{
+    width: 300px;
+    height: 35px;
+    margin-left:624px;
+    font-size: 14px;
+    background-color: rgb(20, 19, 19);
+    color:aliceblue;
+    text-align: center;
+    border-radius: 2px;
+    border-color: antiquewhite;
+}
+
+.search:hover{
+    background-color: rgb(40, 38, 38);
+}
+
+
+.show{
+    margin-right: 100px;
+    margin-left: 550px;
+    font-size: 16px;
+    width: 400px;
+    height: 35px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(119, 164, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.show:hover{
+    background-color: rgb(8, 8, 25);
+    color: aliceblue;
+    transition: 0.2s;
+}
+
+.show-button{
+    margin-left: 25px;
+}
+
+
+.details label{
+    margin-left: 84px;
+}
+
+.getData{
+    margin-left: 84px;
+    width: 220px;
+    background-color: #CEEBFF;
+}
+
+
+
+.edit{
+    width: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgb(144, 218, 218);
+}
+
+.edit:hover{
+    background-color: rgb(104, 149, 149);
+}
+
+.eSubmit{
+    cursor: pointer;
+    margin-left: 5px;
+    background-color: rgb(144, 218, 218);
+}
+
+.eSubmit:hover{
+    background-color: rgb(104, 149, 149);
+}
+
+
+.delete{
+    width: 170px;
+    height: 27px;
+    margin-left: 140px;
+    background-color: rgb(235, 110, 110);
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.delete:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+.update_submit{
+    width: 180px;
+    height: 27px;
+    margin-left: 134px;
+    background-color: rgb(75, 176, 179);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.update_submit:hover{
+    background-color: rgb(30, 36, 98);
+    color: aliceblue;
+}

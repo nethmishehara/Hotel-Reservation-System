@@ -1,0 +1,141 @@
+@charset "ISO-8859-1";
+
+
+
+
+
+body{
+    background-image: url('Images/register.jpg');
+    background-size: cover;
+    backdrop-filter: 0.5;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+.content{
+    position: relative;
+    width: 2500px;
+    height: 800px;
+    display: inline-block;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    margin-right: 20px;
+    margin-left: -16px;
+}
+
+.text{
+    position: relative;
+    margin-right: 1040px;
+    margin-left: 78px;
+    text-align:left;
+    width: 350px;
+    height: 25px;   
+    font-size: 15px;
+    color: white;
+    background-color: rgb(25, 21, 21);
+    
+}
+
+.text:hover{
+    background-color: rgb(38, 34, 34);
+}
+
+
+.img{
+    position:absolute;
+    width: 450px;
+    height: 850px;
+    backdrop-filter: blur(30px);
+    text-align:center;
+    margin-left: 545px;
+    margin-bottom: 100px;
+}
+
+.content h3{
+    position:relative;
+    padding-right: 600px;
+    margin-left: 590px;
+    text-align: left;
+    color: white;
+}
+
+.signin{
+	position: relative;
+	margin-left: 100px;
+	text-align: center;
+}
+
+h4{
+	margin-right: 100px;
+	padding-right: 100px;
+}
+
+
+.submit{
+    position:relative;
+    text-align:center;
+    margin-left: 344px;
+    margin-right: 1310px;
+    width: 300px;
+    height: 40px;
+    cursor:pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 14, 45);
+}
+
+.submit:hover{
+    background-color: rgb(154, 154, 255);
+    color:black
+}
+
+.content h1{
+    position:relative;
+    margin-right: 955px;
+    color: white;
+}
+
+.signup{
+    position: relative;
+    border-color: black;
+    border-radius: 2px;
+    margin-top: 300px;;
+}
+
+
+
+
+/*--------------nav-bar-------------------*/
+footer{
+	background-color: black;
+	height: 130px;
+    opacity: 0.8;
+}
+
+
+
+.logo{
+	width: 180px;
+	height: 95px;
+}
+
+.copyright{
+	background-color: white;
+}
+
+.footer-content{
+	text-align: center;
+	color: white;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+.footer-content td{
+	width: 504px;
+}
